@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  min-width: 100vh;
+  position: relative;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+.container-menu {
+  color: white;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  font-size: large;
+  background-color: white;
+  opacity: 80%;
+  top: 0;
+  
+}
+.wrapper {
+    display: flex;
+    max-width: 1024px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    font-size: 14pt;
+    margin: 20px;
+    
+
+}
+
+.main-container {
+    justify-content: center;
+    display: flex;
+}
+li{
+    list-style: none;
+    margin: 0 auto;
+}
+
+.enlace-menu {
+    list-style: none;
+    margin-left: 40px;
+    margin-right: 25px;
+    color: black;
+    text-decoration: none;
+}
+.sectio1 {
+  margin: 0;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 25px auto;
+  padding: 10px;
+  color: blue;
+  font-size: x-large;
+  width: 900px;
+}
+h3 {
+  color: gray !important;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: larger;
+  width: 900px;
+}
+.container-img{
+    justify-content: center;
+    display: flex;
+    margin: 30px;
+}
+.container-img img{
+    width: 300px;
+    height: 300px;
+}
+.sectio1 p,
+.sectio2 p,
+.sectio3 p,
+.sectio4 p,
+.sectio5 p,
+.sectio6 p {
+  text-align: justify;
+  padding-top: 30px;
+  font-size: x-large;
+  text-align: justify;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 900px;
+  margin: 0 auto;
+}
+.sectio1 h1 h3 {
+  padding-top: 30px;
+  font-size: x-large;
+  text-align: justify;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.footer {
+  text-align: center;
+  background-color: blue;
+  color: white;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 16pt;
+}
+.footer p {
+  padding: 15px;
+}
+footer {
+  margin-top: 15px;
+  height: 50px;
+}
